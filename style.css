@@ -1,0 +1,151 @@
+/* General Styles */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #001F3F; /* Dark Blue */
+
+    color: white;
+
+    text-align: center;
+
+}
+
+/* Header Section */
+
+header {
+
+    background-color: #002F5F;
+
+    padding: 50px;
+
+    font-size: 1.2rem;
+
+}
+
+header h1 {
+
+    color: white;
+
+}
+
+header p {
+
+    color: #A0C1D1;
+
+}
+
+/* Sections */
+
+section {
+
+    padding: 50px;
+
+    border-bottom: 1px solid #A0C1D1;
+
+}
+
+h2 {
+
+    color: #FFD700; /* Gold Accent */
+
+}
+
+/* Profile Picture */
+
+#home img {
+
+    width: 150px;
+
+    height: 150px;
+
+    border-radius: 50%;
+
+    border: 3px solid white;
+
+}
+
+/* Lists */
+
+ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+ul li {
+
+    background: #003366;
+
+    margin: 10px auto;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    width: 50%;
+
+    color: white;
+
+}
+
+/* Interests Section */
+
+#interests {
+
+    background-color: #002244;
+
+    padding: 50px;
+
+}
+
+#interests p {
+
+    font-size: 1.1rem;
+
+    color: #FFD700;
+
+}
+
+/* Social Media Links */
+
+.social-links img {
+
+    width: 40px;
+
+    margin: 10px;
+
+    transition: transform 0.3s;
+
+}
+
+.social-links img:hover {
+
+    transform: scale(1.2);
+
+}
+
+/* Contact Section */
+
+#contact a {
+
+    color: #FFD700;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+#contact a:hover {
+
+    text-decoration: underline;
+
+}
